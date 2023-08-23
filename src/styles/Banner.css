@@ -22,14 +22,7 @@
   font-size: 0.8rem;
   height: 80px;
 }
-.banner--fadeBottom {
-  background-image: linear-gradient(
-    180deg,
-    transparent,
-    rgba(37, 37, 37, 0.61),
-    #111
-  );
-}
+
 .banner_button {
   cursor: pointer;
   color: #fff;
@@ -49,4 +42,13 @@
   color: #000;
   background-color: #e6e6e6;
   transition: all 0.2s ease 0s;
+}
+.banner_fadeBottom {
+  height: 258px; /* Adjust the height as needed */
+  background: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
 }
