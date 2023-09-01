@@ -1,0 +1,101 @@
+.profileScreen {
+  height: 100vh;
+  color: white;
+}
+.profileScreenBody {
+  displacy: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8%;
+  max-width: 800px;
+}
+.profileScreen_info {
+  display: flex;
+}
+.profileScreenBody > h1 {
+  font-size: 60px;
+  font-weight: 400;
+  border-bottom: 1px solid #282c2d;
+  margin-bottom: 20px;
+}
+.profileScreen_info > img {
+  height: 100px;
+}
+.profileScreen_Details {
+  color: white;
+  margin-left: 25px;
+  flex: 1;
+}
+.profileScreen_Details > h2 {
+  background-color: gray;
+  padding: 15px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+.profileScreen_SignOut {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 5%;
+  width: 100%;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+}
+.profileScreen_plans {
+  margin-top: 20px;
+}
+.profileScreen_plans > h3 {
+  border-bottom: 1px solid #282c2d;
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .profileScreen {
+    height: 100vh;
+  }
+  .profileScreenBody {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .profileScreen_info > img {
+    height: 80px;
+  }
+  .profileScreen_Details > h2 {
+    padding: 5px;
+    font-size: 13px;
+    padding-left: 10px;
+  }
+  .profileScreenBody > h1 {
+    font-size: 30px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+    margin-bottom: 20px;
+  }
+  .profileScreen_SignOut {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+  }
+  .profileScreen_plans {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .profileScreen {
+    width: 100%;
+  }
+  .profileScreenBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
